@@ -1,4 +1,6 @@
 (* This is a comment *)
+
+(* To start repl in emacs: alt-x,sml-run,sml *)
 val x = 34; (* x is an int *)
 val y = 17;
 val z = (x+y) + (y+2)
