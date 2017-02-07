@@ -1,6 +1,13 @@
 (* This is a comment *)
 
 (* To start repl in emacs: alt-x,sml-run,sml *)
+(* Changing directory in repl:
+*    OS.FileSys.getDir();
+*    OS.FileSys.chDir("foo");
+* To import a file:
+*    use "foo.sml";
+*)
+
 val x = 34; (* x is an int *)
 val y = 17;
 val z = (x+y) + (y+2)
